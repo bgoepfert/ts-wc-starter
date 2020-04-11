@@ -1,7 +1,7 @@
 import { LitElement, html, css, customElement, property } from "lit-element";
 
-@customElement("kangrid-timer")
-export class KangridTimer extends LitElement {
+@customElement("tsle-timer")
+export class Timer extends LitElement {
   static get styles() {
     return css`
       :host {

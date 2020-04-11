@@ -1,7 +1,7 @@
 import { LitElement, html, css, customElement, property } from "lit-element";
 
-@customElement("kangrid-app")
-export class KangridApp extends LitElement {
+@customElement("tsle-app")
+export class App extends LitElement {
   static get styles() {
     return css`
       :host {
@@ -34,7 +34,7 @@ export class KangridApp extends LitElement {
     return html`
       <main>
         <div>
-          <kangrid-timer></kangrid-timer>
+          <tsle-timer></tsle-timer>
           <p>Hello, ${this.name}!</p>
           <button @click="${this.handleNameChange}">click me</button>
         </div>
