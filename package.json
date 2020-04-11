@@ -1,0 +1,32 @@
+{
+  "name": "ts-wc-starter",
+  "description": "A simple TypeScript Web Components app example with parcel and LitElement for 2020",
+  "version": "1.0.0",
+  "main": "index.html",
+  "keywords": [
+    "typescript",
+    "parcel",
+    "web",
+    "components",
+    "starter",
+    "example",
+    "2020"
+  ],
+  "author": {
+    "name": "Bastien Goepfert",
+    "email": "bas.goepfert@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/parcel-env": "^0.0.0",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}
